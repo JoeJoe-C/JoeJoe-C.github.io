@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    background-color: #073b4c;
+    color: #fff;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+}
+
+.logo {
+    justify-self:start;
+    align-self:start;
+}

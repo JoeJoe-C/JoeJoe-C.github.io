@@ -4,45 +4,59 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Home | Yoseph Campbell</title>
-		<link rel="stylesheet" href="css/reset.css">
-		<link href="css/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="./css/main/style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=house" />
+</span>
 	</head>
 	<body>
-		<nav>
-			<ul class="nav">
-				<li class="nav-item-wrapper">
-					<a class="nav-item name" href="index.html">Yoseph Campbell</a>
-				</li>
-				<li class="nav-item-wrapper">
-					<a class="nav-item" href="#">Resume</a>
-				</li>
-				<li class="nav-item-wrapper">
-					<a class="nav-item" href="pages/projects.html">Projects</a>
-				</li>
-				<li class="nav-item-wrapper">
-					<a class="nav-item" href="pages/blog.html">Blog</a>
-				</li>
-				<li class="nav-item-wrapper">
-					<a class="nav-item" href="pages/contact.html">Contact</a>
-				</li>
-			</ul>
-		</nav>
+		<!--navigation bar-->
+		<header>
+			<nav>
+				<ul class="nav-links">
+					<li class="logo">
+						<!--TODO MAKE LOGO GO LEFT-->
+						<span class="material-symbols-outlined">
+							<a href="./index.html">house</a>
+						</span>
+					</li>
+					<li>
+						<a href="#">Resume</a>
+					</li>
+					<li>
+						<a href="pages/projects.html">Projects</a>
+					</li>
+					<li>
+						<a href="pages/blog.html">Blog</a>
+					</li>
+					<li>
+						<a href="pages/contact.html">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-		<div class="img-hero">
-			<!-- img slideshow -->
-			<img src="#" alt="Image for hero">
-		</div>
-
-		<section>
+		<section class="card">
 			<!-- About me -->	
-			<h2>Software Engineer</h2>
+			<img src="#" alt="Image of Me">
+			<h1>Software Engineer</h1>
 			<p>Hi i'm Yoseph, I am from Indonesia based in Perth. I sling drinks and make software.</p>
 		</section>
 
-		<section>
+		<div class="slideshow">
+			<h1>What I'm Up To</h1>
 			<!-- Projects slideshow-->
-			<img src="#" alt="Image of Project">
-		</section>
+			<div class="slideshow-card">
+				<img src="#" alt="Slidshow card">
+			</div>
+			<!--dots for slideshow-->
+			<div class="circle-container">
+				<span class="circle" onclick=""></span>
+				<span class="circle" onclick=""></span>
+				<span class="circle" onclick=""></span>
+			</div>
+		</div>
+
 		<footer>
 			<p>© 2025 Yoseph Campbell. All rights reserved.</p>
 		</footer>
