@@ -1,33 +1,70 @@
 html {
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    height: 100%;
+    padding: 5%;
+}
+
+.rubik-puddles-regular {
+  font-family: "Rubik Puddles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cherry-bomb-one-regular {
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sue-ellen-francisco-regular {
+  font-family: "Sue Ellen Francisco", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 *, *::before, *::after {
     box-sizing: inherit;
     background-color: #073b4c;
     color: #fff;
+    font-family: "Sue Ellen Francisco", cursive;
 }
 
+/* navigation styling */
 .nav-links {
+    font-size: 25px;
     display: flex;
     flex-direction: row;
     justify-content: end;
     align-items: center;
     list-style-type: none;
-    margin: 0;
+    margin: 0 0 5% 0;
     padding: 0;
 }
 
+.nav-links .logo {
+    margin-right: auto; 
+    justify-self: start;
+}
+
 .nav-links li {
+    font-weight: bold;
+    font-family: "Sue Ellen Fransisco";
     display: inline-block;
     padding: 10px 15px;
 }
 
-.nav-links li a {
+.nav-links li a{
     text-decoration: none;
 }
 
-.logo {
-    justify-self:start;
-    align-self:start;
+.nav-links li a:hover, .nav-links li a:active {
+    color: #ffd166;
+}
+
+.page-footer {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
 }

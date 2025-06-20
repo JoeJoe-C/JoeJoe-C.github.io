@@ -1,15 +1,46 @@
+.card {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+.card h1 {
+    margin-top: auto;
+    margin-bottom: 0px;
+    font-size: 300%;
+    font-weight: lighter;
+    color: #FFD166;
+}
+
+.card p {
+    margin: 0;
+    font-size: 125%;
+}
+
+.card img {
+    padding: 15px;
+    margin-right: 15px;
+    display: block;
+    overflow: hidden;
+    width: auto;
+    height: 300px;
+}
+
 .slideshow {
     display: block;
-    background-color: #fff;
+    border-color: #ffd166;
+    border-style: solid;
 }
 
 .slideshow h1 {
-    color: #073b4c;
+    color: #fff;
     background-color: inherit;
     border-top-left-radius: inherit;
     border-top-right-radius: inherit;
     padding-top: 15px;
     text-align: center;
+    margin-bottom: 5%;
 }
 
 .slideshow-card {
@@ -20,7 +51,12 @@
 }
 
 .slideshow-card img {
+    display: block;
     background-color: inherit;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    overflow: hidden;
 }
 
 .slideshow div.circle-container {
@@ -37,7 +73,7 @@
     cursor: pointer;
     height: 15px;
     width: 15px;
-    background-color: #073b4c;
+    background-color: #ffd166;
     border-radius: 50%;
 }
 

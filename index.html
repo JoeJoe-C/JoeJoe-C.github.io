@@ -4,9 +4,13 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Home | Yoseph Campbell</title>
-		<link rel="stylesheet" href="./css/style.css">
-		<link rel="stylesheet" href="./css/main/style.css">
+		<link rel="stylesheet" href="/css/reset.css">
+		<link rel="stylesheet" href="/css/index.css">
+		<link rel="stylesheet" href="/css/main/style.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=house" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Rubik+Puddles&family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
 </span>
 	</head>
 	<body>
@@ -15,22 +19,19 @@
 			<nav>
 				<ul class="nav-links">
 					<li class="logo">
-						<!--TODO MAKE LOGO GO LEFT-->
-						<span class="material-symbols-outlined">
-							<a href="./index.html">house</a>
-						</span>
+						<a href="/index.html">Home</a>
 					</li>
 					<li>
 						<a href="#">Resume</a>
 					</li>
 					<li>
-						<a href="pages/projects.html">Projects</a>
+						<a href="/pages/projects.html">Projects</a>
 					</li>
 					<li>
-						<a href="pages/blog.html">Blog</a>
+						<a href="/pages/blog.html">Blog</a>
 					</li>
 					<li>
-						<a href="pages/contact.html">Contact</a>
+						<a href="/pages/contact.html">Contact</a>
 					</li>
 				</ul>
 			</nav>
@@ -38,16 +39,20 @@
 
 		<section class="card">
 			<!-- About me -->	
-			<img src="#" alt="Image of Me">
-			<h1>Software Engineer</h1>
-			<p>Hi i'm Yoseph, I am from Indonesia based in Perth. I sling drinks and make software.</p>
+			<div>
+				<img src="/assets/img/diageo-top-100.jpeg" alt="Image Placeholder">
+			</div>
+			<div>
+				<h1>Software Engineer</h1>
+				<p>Hi i'm Yoseph, I am from Indonesia based in Perth. I sling drinks and make software.</p>
+			</div>
 		</section>
 
 		<div class="slideshow">
 			<h1>What I'm Up To</h1>
 			<!-- Projects slideshow-->
 			<div class="slideshow-card">
-				<img src="#" alt="Slidshow card">
+				<img src="/assets/img/diageo-top-100.jpeg" alt="Slidshow card">
 			</div>
 			<!--dots for slideshow-->
 			<div class="circle-container">
@@ -57,7 +62,7 @@
 			</div>
 		</div>
 
-		<footer>
+		<footer class="page-footer">
 			<p>© 2025 Yoseph Campbell. All rights reserved.</p>
 		</footer>
 	</body>
