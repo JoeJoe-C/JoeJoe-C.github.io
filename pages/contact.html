@@ -39,16 +39,16 @@
 		<!--Contact Form-->
 		<div class="contact-form">
 			<h1>Flick me a message!</h1>
-			<form>
-				<label>Name</label>
-				<input>
-				<label>Subject</label>
-				<input>
-				<label>Email</label>
-				<input>
-				<label>Message</label>
-				<textarea></textarea>
-				<button>Send Email</button>
+			<form action="" method="post">
+				<label for="name">Name</label>
+				<input id="name" type="text" name="name" placeholder="Your Name">
+				<label for="subject">Subject</label>
+				<input id="subject" type="text" name="subject" placeholder="The Subject">
+				<label for="email">Email</label>
+				<input id="email" type="email" name="email" placeholder="Your email">
+				<label for="message">Message</label>
+				<textarea id="message" type="text" name="message" placeholder="Your message" rows="10" cols="30"></textarea>
+				<button type="submit" onclick="">Send Email</button>
 			</form>
 		</div>
 
