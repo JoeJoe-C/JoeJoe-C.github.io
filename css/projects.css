@@ -1,0 +1,48 @@
+.project-container .project-card {
+    margin-bottom: 15px;
+    border-color: #ffd166;
+    border-style: solid;
+    background-color: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.image {
+    padding: 5%;
+    flex: 1;
+    background-color: inherit;
+}
+
+.image img {
+    justify-self: center;
+    flex: 2;
+    display: block;
+    border-radius: 10%;
+    background-color: inherit;
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.content {
+    padding: 5%;
+    flex: 2;
+    background-color: inherit;
+}
+
+.content h1 {
+    color: #ffd166;
+    background-color: inherit;
+    font-size: 250%;
+}
+
+.content p {
+    background-color: inherit;
+    font-size: 150%;
+}
+
+
+
+

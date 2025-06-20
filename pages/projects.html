@@ -3,26 +3,63 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Projects | Yoseph Campbell</title>
-		<link href="css/style.css" rel="stylesheet">
+		<title>My Projects | Yoseph Campbell</title>
+		<link rel="stylesheer" href="/css/reset.css">
+		<link rel="stylesheet" href="/css/projects.css">
+		<link rel="stylesheet" href="/css/main/style.css" defer>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=house" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Rubik+Puddles&family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<nav class="nav">
-			<a class="nav-item" href="../index.html">Yoseph Campbell</a>
-			<a class="nav-item" href="#">Resume</a>
-			<a class="nav-item" href="projects.html">Projects</a>
-			<a class="nav-item" href="blog.html">Blog</a>
-			<a class="nav-item" href="contact.html">Contact</a>
-		</nav>
+		<!--navigation bar-->
+		<header>
+			<nav>
+				<ul class="nav-links">
+					<li class="logo">
+						<a href="/index.html">Home</a>
+					</li>
+					<li>
+						<a href="#">Resume</a>
+					</li>
+					<li>
+						<a href="/pages/projects.html">Projects</a>
+					</li>
+					<li>
+						<a href="/pages/blog.html">Blog</a>
+					</li>
+					<li>
+						<a href="/pages/contact.html">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-		<section>
-			<h1>Here are some of my projects!</h1>
-			<div>
-				<!-- Project Cards -->
+		<div class="project-container">
+			<div class="project-card">
+				<div class="image">
+					<img src="/assets/img/diageo-top-100.jpeg" alt="Project description">
+				</div>
+				<div class="content">
+					<h1>Project Title</h1>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni facere praesentium, ratione, aspernatur nemo nisi ipsum cum, sit cupiditate rem laboriosam deleniti optio sed doloremque assumenda voluptatum nulla et veritatis.</p>
+				</div>
 			</div>
-		</section>
-		<footer>
+			<div class="project-card-right">
+				<div class="content">
+					<h1>Project Title</h1>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni facere praesentium, ratione, aspernatur nemo nisi ipsum cum, sit cupiditate rem laboriosam deleniti optio sed doloremque assumenda voluptatum nulla et veritatis.</p>
+				</div>
+				<div class="image">
+					<img src="/assets/img/diageo-top-100.jpeg" alt="Project description">
+				</div>
+			</div>
+		</div>
+
+		<footer class="page-footer">
 			<p>© 2025 Yoseph Campbell. All rights reserved.</p>
 		</footer>
 	</body>
 </html>
+
